@@ -1258,6 +1258,14 @@
     sudo-prompt "^9.0.0"
     wcwidth "^1.0.1"
 
+"@types/hoist-non-react-statics@*":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
+  integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.3.tgz#4ba8ddb720221f432e443bd5f9117fd22cfd4762"
@@ -1302,7 +1310,7 @@
   dependencies:
     "@types/react" "^16"
 
-"@types/react-native@~0.63.2":
+"@types/react-native@*", "@types/react-native@~0.63.2":
   version "0.63.37"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.63.37.tgz#c43df90c9d3cc082a97a49a53e989de26cb8ab45"
   integrity sha512-xr9SZG7tQQBKT6840tAGaWEC65D2gjyxZtuZxz631UgeW1ofItuu9HMVhoyYqot2hRSa6Q4YC8FYkRVUpM53/w==
@@ -1337,6 +1345,16 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
+
+"@types/styled-components@^5.1.5":
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.5.tgz#a98e2ead1a1c7660b966f3aade4df9c0ec8ed75a"
+  integrity sha512-VWwoKm39W783a75oILtdCjnNn+FSV8Yh3O9naIudtZCAkk+rRfwLWzuPjf5k/OilENgZqAkxJ9sukSOZTAD86g==
+  dependencies:
+    "@types/hoist-non-react-statics" "*"
+    "@types/react" "*"
+    "@types/react-native" "*"
+    csstype "^3.0.2"
 
 "@types/yargs-parser@*":
   version "15.0.0"
@@ -1601,7 +1619,7 @@ babel-plugin-react-native-web@~0.13.6:
   resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.13.18.tgz#f0b640412b81acd02d8036b7a935ffb3ab446e4e"
   integrity sha512-f8pAxyKqXBNRIh8l4Sqju055BNec+DQlItdtutByYxULU0iJ1F7evIYE3skPKAkTB/xJH17l+n3Z8dVabGIIGg==
 
-"babel-plugin-styled-components@>= 1":
+"babel-plugin-styled-components@>= 1", babel-plugin-styled-components@^1.12.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.12.0.tgz#1dec1676512177de6b827211e9eda5a30db4f9b9"
   integrity sha512-FEiD7l5ZABdJPpLssKXjBUJMYqzbcNzBowfXDCdJhOpbhWiewapUaY+LZGT8R4Jg2TwOjGjG4RKeyrO5p9sBkA==
@@ -2903,7 +2921,7 @@ hermes-profile-transformer@^0.0.6:
   dependencies:
     source-map "^0.7.3"
 
-hoist-non-react-statics@^3.0.0:
+hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.3.0:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
